@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<ScrollView
+        android:id="@+id/scrollView15"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp" >
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONNECTION STATUS : If the socket is connected to a device,then Check the above box without fail." />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If the below box is not checked, other edit details here are ignored." />
+    
+    <CheckBox
+            android:id="@+id/id_con5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="60dp"
+            android:text="Connected" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line" />
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_device_name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="60dp" >
+
+        <CheckBox
+            android:id="@+id/id_tube5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/tube" />
+
+        <CheckBox
+            android:id="@+id/id_fan5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/fan" />
+
+        <CheckBox
+            android:id="@+id/id_bulb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/bulb" />
+
+        <CheckBox
+            android:id="@+id/id_cfl5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/cfl" />
+
+        <CheckBox
+            android:id="@+id/id_ac5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/ac" />
+
+        <CheckBox
+            android:id="@+id/id_heater5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/heater" />
+
+        <CheckBox
+            android:id="@+id/id_other_analog5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/other_analog" />
+
+        <CheckBox
+            android:id="@+id/id_other_digital5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="check5"
+            android:text="@string/other_digital" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line" />
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height= "wrap_content"
+	    android:orientation="horizontal"  >
+    
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/edit_device_type1" />
+
+        <TextView
+            android:id= "@+id/id_edit_type_display5"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" />
+
+    </LinearLayout>    
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_device_location" />
+
+    <EditText
+        android:id="@+id/id_edit_device_location5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_calculate_energy1" />
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingLeft="60dp"
+        android:orientation="vertical" >
+        
+        <CheckBox
+            android:id="@+id/id_edit_calculate_energy5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_calculate_energy2" />
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_device_rating" />
+    
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:paddingLeft="25dp" 
+        android:paddingRight="25dp"
+        android:orientation="horizontal">
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_rating_power" />
+        
+        <EditText
+            android:id="@+id/id_power_rating5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"  />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent"
+        android:paddingLeft="25dp" 
+        android:paddingRight="25dp"
+        android:orientation="horizontal">
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_rating_voltage" />
+        
+        <EditText
+            android:id="@+id/id_voltage_rating5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"  />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blank_line" />
+           
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/done" 
+        android:onClick="editComplete5" />
+    
+    
+</LinearLayout>
+
+</ScrollView>
+    
+</LinearLayout>
