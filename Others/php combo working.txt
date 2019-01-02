@@ -1,0 +1,15 @@
+<?php
+ 
+ $filename1="data.txt";
+ if (!empty($_POST["informa"])) {
+	$sstr = $_POST["informa"];
+	if ($sstr == "0d1") {
+		$sstrr = "$010110*";
+	}
+	file_put_contents($filename1,$sstrr);
+ }     
+ $msg=file_get_contents($filename1);
+ echo $msg;
+ 
+ ?>
+  

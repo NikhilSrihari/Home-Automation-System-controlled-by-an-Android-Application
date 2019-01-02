@@ -1,0 +1,17 @@
+<?php
+ 
+ $filename1="data.txt";
+ if (!empty($_POST["informa"])) {
+	file_put_contents($filename1,$_POST["informa"]);
+ }     
+ $msg=file_get_contents($filename1);
+ echo $msg;
+
+ 
+  ?>
+  
+  
+
+// dise no. 
+9448549560
+u12 hostels gate sugama e
