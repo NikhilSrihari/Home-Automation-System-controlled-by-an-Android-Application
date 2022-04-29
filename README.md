@@ -1,6 +1,5 @@
 # Home-Automation-System-controlled-by-an-Android-Application
 
-|--------|----------|-----------|------------|
 | Domain | Tutorial | Key Words | Github URL |
 |--------|----------|-----------|------------|
 | ASR | How do I use Riva ASR APIs with out-of-the-box models? | ASR, API Basics | [Riva ASR - API Basics](asr-python-basics.ipynb) |
