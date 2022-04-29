@@ -3,7 +3,7 @@
 | Domain | Tutorial | Key Words | Github URL |
 |--------|----------|-----------|------------|
 | ASR | How do I use Riva ASR APIs with out-of-the-box models? | ASR, API Basics | [Riva ASR - API Basics](asr-python-basics.ipynb) |
-|--------|----------|-----------|------------|
+|-----|--------------------------------------------------------|-----------------|--------------------------------------------------|
 | ASR | How to Improve Recognition of Specific Words | ASR, Customization | [Riva ASR - Customization Overview](asr-how-to-improve-recognition-for-specific-words.md) |
 |--------|----------|-----------|------------|
 | ASR | How do I boost specific words at runtime with word boosting? | ASR, Customization, Word Boosting | [Riva ASR - Customization - Word Boosting](asr-python-advanced-wordboosting.ipynb) |
